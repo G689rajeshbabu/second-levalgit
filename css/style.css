@@ -1,0 +1,85 @@
+html,
+body,
+.container {
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex: 1;
+    border: 1px solid red;
+}
+
+.center {
+    flex: 1;
+    border: 1px solid blue;
+}
+
+.right {
+    flex: 1;
+    border: 1px solid burlywood;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-1,
+.left-2 {
+    flex: 1;
+    border: 1px solid red;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-u,
+.center-c,
+.center-b {
+    flex: 1;
+    border: 1px solid blue;
+}
+
+.center-c {
+    display: flex;
+    flex-direction: row;
+}
+
+.center-c1,
+.center-c2 {
+    flex: 1;
+    border: 1px solid blue;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-u,
+.right-c,
+.right-d {
+    flex: 1;
+    border: 1px solid green;
+}
+
+.right-d {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-d1,
+.right-d2 {
+    flex: 1;
+    border: 1px solid red;
+}
